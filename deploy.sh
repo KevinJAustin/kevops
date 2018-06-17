@@ -1,5 +1,6 @@
 #!/bin/bash
 
+ssh-add ~/.ssh/id_rsa
 rm -rf public/*
 hugo
 git add .
