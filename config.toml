@@ -37,16 +37,16 @@ disqusShortname = ""
 
   # Enable / Disable algolia search
   algolia_search    = true
-  algolia_appId     = "Y2C4RWMPXW"
-  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
-  algolia_indexName = "default-content"
+  algolia_appId     = "84MLS93448"
+  algolia_apiKey    = "97213757699c69eafee3cd4f7c03fd6c"
+  algolia_indexName = "kevops-content"
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "DevOps musings from a guy named Kevin."
+    subtitle = "DevOps tutorials and thoughts on best practices."
 
     # if you want to use gravatar for the header image
-    gravatarEMail = "kevin@xengo.co.uk"
+    gravatarEMail = ""
 
     # set an path to the image file you want to use | overwrites gravatar
     customImage = ""
@@ -56,7 +56,7 @@ disqusShortname = ""
 
   # social media profile urls for the footer links
   facebook   = ""
-  twitter    = ""
+  twitter    = "https://twitter.com/KevinAustinUK"
   googleplus = ""
   pinterest  = ""
   instagram  = ""
