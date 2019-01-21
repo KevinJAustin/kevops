@@ -1,0 +1,19 @@
+language: go
+install: go get -v github.com/spf13/hugo
+script:
+  - hugo
+  - python --version
+  - sudo pip install s3cmd
+  - s3cmd sync --delete-removed --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY -P -M -r public/ s3://www.kevops.co.uk
+notifications:
+    email:
+        on_failure: always
+
+#ssh-add ~/.ssh/id_rsa
+#rm -rf public/*
+#hugo
+#git add .
+#git commit -m "Content update"
+#git push
+#aws s3 sync public/ s3://www.kevops.co.uk/ --delete --profile kevops
+#echo "All done"
